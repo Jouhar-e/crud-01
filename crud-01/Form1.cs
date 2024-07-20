@@ -28,7 +28,7 @@ namespace crud_01
         {
             dataGridView1.DataSource = mod.getData("select * from list");
             dataGridView1.Columns[0].Visible = false;
-            dataGridView1.Columns[1].HeaderText = "Nama";
+            dataGridView1.Columns[1].HeaderText = "Nama Lengkap";
             dataGridView1.Columns[2].HeaderText = "Alamat";
             dataGridView1.Columns[3].HeaderText = "No Telp";
             GroupBox1.Enabled = true;
